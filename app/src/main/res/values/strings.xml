@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyAndroid</string>
+    <string name="button">Button</string>
+    <string name="textView">TextView</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="hiLogo">Hi&#160;Perhamer!</string>
+</resources>
