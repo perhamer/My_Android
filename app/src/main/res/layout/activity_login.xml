@@ -32,13 +32,13 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/loginPassInput"
-            app:layout_constraintVertical_bias="0.1"/>
+            app:layout_constraintVertical_bias="0.1"
+            />
 
     <EditText
             android:layout_width="245dp"
             android:layout_height="44dp"
             android:inputType="textPersonName"
-            android:text="@string/loginUserNameInputPlace"
             android:ems="10"
             android:id="@+id/loginUserNameInput"
             app:layout_constraintBottom_toTopOf="@+id/loginPassInput"
@@ -52,13 +52,13 @@
             style="@style/Widget.AppCompat.EditText"
             android:textAllCaps="false"
             tools:ignore="LabelFor"
-            android:autofillHints=""/>
+            android:autofillHints=""
+            android:hint="@string/loginUserNameInputPlace"/>
 
     <EditText
             android:layout_width="245dp"
             android:layout_height="44dp"
             android:inputType="textPersonName"
-            android:text="@string/loginPassInputPlace"
             android:ems="10"
             android:id="@+id/loginPassInput"
             app:layout_constraintTop_toTopOf="parent"
@@ -68,7 +68,8 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintVertical_bias="0.5"
             tools:ignore="LabelFor"
-            android:autofillHints=""/>
+            android:autofillHints=""
+            android:hint="@string/loginPassInputPlace"/>
 
     <androidx.constraintlayout.widget.Guideline
             android:layout_width="wrap_content"
