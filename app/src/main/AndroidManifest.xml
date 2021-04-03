@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".FaceActivity"/>
         <activity android:name=".LoginActivity"/>
+        <activity android:name=".SealActivity"/>
     </application>
 
 </manifest>
