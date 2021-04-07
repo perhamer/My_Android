@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadidsImageView">
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FontTextView">
+        <attr name="type_face_font">
+            <enum name="avenir" value="1" />
+            <enum name="museosans_300" value="2" />
+            <enum name="museosans_500" value="3" />
+            <enum name="museosans_700" value="4" />
+            <enum name="proximanova_light" value="5" />
+            <enum name="proximanova_bold" value="6" />
+        </attr>
+    </declare-styleable>
+</resources>
